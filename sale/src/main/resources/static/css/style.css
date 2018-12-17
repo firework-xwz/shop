@@ -3242,3 +3242,53 @@ ul.bottom-links-agile li a {
 	}
 }
 /*-- //responsive --*/
+.goodsname {
+	color: #555;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.price_single {
+	font-size:1.6em;
+	margin-bottom:3%;
+}
+
+.reducedfrom {
+	text-decoration: line-through;
+	margin-right:3%;
+	color: #555;
+}
+
+.actual {
+	color:#FFAF02;
+	font-size: 1em;
+	margin-right:5%;
+}
+
+.labgoods {
+	text-transform:uppercase;
+	margin-bottom:6%;
+}
+
+.btn_form {
+	padding: 4% 0;
+}
+
+.labtype {
+	color:#000;
+	font-size:1em;
+	text-transform:uppercase;
+	margin-bottom:6%;
+}
+
+.add-to-links {
+	margin-bottom:2%;
+}
+
+.discribtion {
+	color:#999;
+	font-size:0.8125em;
+	line-height:1.8em;
+	margin-bottom:10px;
+}

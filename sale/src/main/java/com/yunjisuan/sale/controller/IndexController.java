@@ -4,10 +4,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class MoviesController {
+public class IndexController {
 
-    @RequestMapping("/list")
-    public String list(){
-        return "list";
+    @RequestMapping("/index")
+    public String index(){
+        return "index";
     }
 }
