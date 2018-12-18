@@ -3292,3 +3292,12 @@ ul.bottom-links-agile li a {
 	line-height:1.8em;
 	margin-bottom:10px;
 }
+
+.good_list_pay {
+	float: right;
+}
+
+.pay_btn {
+	float: right;
+	margin: 5px;
+}
