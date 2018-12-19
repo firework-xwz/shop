@@ -5,13 +5,7 @@ import javax.persistence.Entity;
 @Entity
 public class Order {
 
-    public long getOrder_id() {
-        return order_id;
-    }
 
-    public void setOrder_id(long order_id) {
-        this.order_id = order_id;
-    }
 
     public String getGoods_id() {
         return goods_id;
@@ -53,20 +47,15 @@ public class Order {
         this.order_location = order_location;
     }
 
-    private long order_id;
+    private String order_id;
     private String goods_id;
     private String user_id;
     private int order_num;
     private int order_status;
     private String order_location;
+    private String order_time;
 
-    public long getOrder_time() {
-        return order_time;
-    }
 
-    public void setOrder_time(long order_time) {
-        this.order_time = order_time;
-    }
 
-    private long order_time;
+
 }
