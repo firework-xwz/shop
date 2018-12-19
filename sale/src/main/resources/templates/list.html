@@ -290,7 +290,7 @@
 										  </tr>
 										</thead>
 										<tbody>
-										  <tr th:each="good:${goodsList}">
+										  <tr th:each="good:${goodsList}" th:attr="data-id=@{${good.getGoods_id()}}" onclick="show(this)">
 											  <td th:text="${good.getGoods_id()}">1</td>
 											  <td th:text="${good.getGoods_name()}">2016</td>
 											  <td th:text="${good.getGoods_type()}"></td>
@@ -4622,7 +4622,7 @@ fit: true
 					</script>
 <!--end-smooth-scrolling-->
 	<script src="../js/bootstrap.js"></script>
-
+		<script src="../js/list.js"></script>
  
 
 </body>

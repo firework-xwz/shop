@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <title>Single Page</title>
 <!-- for-mobile-apps -->
@@ -284,7 +284,7 @@
 									<img src="images/m1.jpg"/>
 								</div>
 								<div class="col-md-4 latest-news-agile-right-content">
-									<h3 class="goodsname">goodsname</h3>
+									<h3 th:text="${goods_id}" class="goodsname">goodsname</h3>
 									<div class="price_single">
 										<span class="reducedfrom">$66.00</span>
 										<span class="actual">$12.00</span>
